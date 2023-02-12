@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gamamauauaua"
+    app:startDestination="@id/gameOneFragment">
+
+    <fragment
+        android:id="@+id/gameOneFragment"
+        android:name="com.naturalmotion.cs.gaaamemem.GameOneFragment"
+        android:label="fragment_game_one"
+        tools:layout="@layout/fragment_game_one" >
+        <action
+            android:id="@+id/action_gameOneFragment_to_gameTviFragment"
+            app:destination="@id/gameTviFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameTviFragment"
+        android:name="com.naturalmotion.cs.gaaamemem.GameTviFragment"
+        android:label="fragment_game_tvi"
+        tools:layout="@layout/fragment_game_tvi" >
+        <action
+            android:id="@+id/action_gameTviFragment_to_gameThreeFragment"
+            app:destination="@id/gameThreeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameThreeFragment"
+        android:name="com.naturalmotion.cs.gaaamemem.GameThreeFragment"
+        android:label="fragment_game_three"
+        tools:layout="@layout/fragment_game_three" >
+        <action
+            android:id="@+id/action_gameThreeFragment_to_gaameFourFragment"
+            app:destination="@id/gaameFourFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gaameFourFragment"
+        android:name="com.naturalmotion.cs.gaaamemem.GaameFourFragment"
+        android:label="fragment_gaame_four"
+        tools:layout="@layout/fragment_gaame_four" >
+        <action
+            android:id="@+id/action_gaameFourFragment_to_gameOneFragment"
+            app:destination="@id/gameOneFragment"
+            app:launchSingleTop="true"
+            app:popUpTo="@id/gameOneFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

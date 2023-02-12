@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/backk"
+    android:layout_height="match_parent"
+    tools:context=".gaaamemem.GaameFourFragment">
+
+
+    <ImageView
+        android:id="@+id/cbvdvgfrvfrr"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/loggi"
+        app:layout_constraintBottom_toTopOf="@id/btn_press_meefrgthy"
+        app:layout_constraintStart_toStartOf="@id/frgthy"
+        app:layout_constraintTop_toBottomOf="@id/prog_bbbb" />
+
+    <TextView
+        android:id="@+id/fnrkgbjgttkhyjhy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="4dp"
+        android:background="#9255F4"
+        android:fontFamily="@font/montserrat_black"
+        android:padding="2dp"
+        android:text=": Destroy this emeny"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintBottom_toBottomOf="@id/cbvdvgfrvfrr"
+        app:layout_constraintEnd_toEndOf="@id/ftgyhy"
+        app:layout_constraintStart_toEndOf="@id/cbvdvgfrvfrr"
+        app:layout_constraintTop_toTopOf="@id/cbvdvgfrvfrr" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/jhihyoihyiohyji"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/rfrgtgyhy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.40" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/thththt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.30" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/rfrgtjytohjoy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.05" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/frgthy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ftgyhy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/ttokhykhjoyjh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gtohoyjhjoyu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.80" />
+
+    <ImageView
+        android:id="@+id/btn_img_exiterfgt"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/hyjjuujuj"
+        app:layout_constraintEnd_toEndOf="@id/ftgyhy"
+        app:layout_constraintTop_toTopOf="@id/rfrgtjytohjoy" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_press_meefrgthy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="6dp"
+        android:fontFamily="@font/montserrat_black"
+        android:text="+ 10 points damage"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="@id/jhihyoihyiohyji"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/dedrfggt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:fontFamily="@font/opensans_regular"
+        android:text="@string/app_name"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/jhihyoihyiohyji" />
+
+
+    <ImageView
+        android:id="@+id/img_main_enemeefrgy"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:src="@drawable/stoone"
+        app:layout_constraintEnd_toEndOf="@id/ftgyhy"
+        app:layout_constraintStart_toStartOf="@id/frgthy"
+        app:layout_constraintTop_toTopOf="@id/thththt" />
+
+
+    <ProgressBar
+        android:id="@+id/prog_bbbb"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="10dp"
+        android:layout_marginTop="12dp"
+        android:progressDrawable="@drawable/prog"
+        app:layout_constraintEnd_toEndOf="@id/ftgyhy"
+        app:layout_constraintStart_toStartOf="@id/frgthy"
+        app:layout_constraintTop_toBottomOf="@id/img_main_enemeefrgy"
+        tools:progress="45" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

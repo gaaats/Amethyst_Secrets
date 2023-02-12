@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maaaananan"
+    app:startDestination="@id/mainMainMainFragment">
+
+    <fragment
+        android:id="@+id/mainMainMainFragment"
+        android:name="com.naturalmotion.cs.maaain.MainMainMainFragment"
+        android:label="fragment_main_main_main"
+        tools:layout="@layout/fragment_main_main_main" >
+        <action
+            android:id="@+id/action_mainMainMainFragment_to_conContryyyFragment"
+            app:destination="@id/conContryyyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/conContryyyFragment"
+        android:name="com.naturalmotion.cs.maaain.ConContryyyFragment"
+        android:label="fragment_con_contryyy"
+        tools:layout="@layout/fragment_con_contryyy" >
+        <action
+            android:id="@+id/action_conContryyyFragment_to_secccMaMaFragment"
+            app:destination="@id/secccMaMaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secccMaMaFragment"
+        android:name="com.naturalmotion.cs.maaain.SecccMaMaFragment"
+        android:label="fragment_seccc_ma_ma"
+        tools:layout="@layout/fragment_seccc_ma_ma" >
+        <action
+            android:id="@+id/action_secccMaMaFragment_to_preeeFiillterraaaFragment"
+            app:destination="@id/preeeFiillterraaaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/preeeFiillterraaaFragment"
+        android:name="com.naturalmotion.cs.maaain.PreeeFiillterraaaFragment"
+        android:label="fragment_preee_fiillterraaa"
+        tools:layout="@layout/fragment_preee_fiillterraaa" >
+        <action
+            android:id="@+id/action_preeeFiillterraaaFragment_to_filterinnggfilllFragment"
+            app:destination="@id/filterinnggfilllFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/filterinnggfilllFragment"
+        android:name="com.naturalmotion.cs.maaain.FilterinnggfilllFragment"
+        android:label="fragment_filterinnggfilll"
+        tools:layout="@layout/fragment_filterinnggfilll" />
+</navigation>
