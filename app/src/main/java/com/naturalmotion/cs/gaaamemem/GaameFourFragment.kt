@@ -17,7 +17,7 @@ class GaameFourFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         try {
-            val frgtgtgt = ContextCompat.getDrawable(requireActivity(), R.drawable.en1)
+            val frgtgtgt = ContextCompat.getDrawable(requireActivity(), R.drawable.stoone)
 
             val gtgtt = listOf(frgtgtgt).shuffled()
 

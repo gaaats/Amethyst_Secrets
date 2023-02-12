@@ -26,7 +26,7 @@
         android:background="#9255F4"
         android:fontFamily="@font/montserrat_black"
         android:padding="2dp"
-        android:text=": Destroy this emeny"
+        android:text=": Destroy this enemy"
         android:textAllCaps="true"
         android:textColor="@color/black"
         android:textSize="17sp"
