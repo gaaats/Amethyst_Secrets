@@ -60,18 +60,6 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.50" />
 
-    <ImageView
-        android:id="@+id/cbvdvgfrvfrr"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:src="@drawable/sev"
-        app:layout_constraintBottom_toBottomOf="@+id/img_elfrgtgtgtgt"
-        app:layout_constraintEnd_toStartOf="@+id/img_elfrgtgtgtgt"
-        app:layout_constraintStart_toStartOf="@id/guideline_vert_05gt"
-        app:layout_constraintTop_toTopOf="@+id/img_elfrgtgtgtgt" />
-
-
-
 
 
 
@@ -80,7 +68,7 @@
         android:id="@+id/img_el1"
         android:layout_width="240dp"
         android:layout_height="240dp"
-        android:src="@drawable/loggi"
+        android:src="@drawable/stoone"
         app:layout_constraintBottom_toTopOf="@+id/img_elfrgtgtgtgt"
         app:layout_constraintStart_toStartOf="@id/guideline_vert_05gt"
         app:layout_constraintTop_toTopOf="@id/guideline_hor_05gt" />
@@ -119,10 +107,10 @@
         android:id="@+id/img_elfrgtgtgtgt"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:src="@drawable/loggi"
+        android:src="@drawable/stoone"
         app:layout_constraintBottom_toBottomOf="@id/gtiojtjotgjitg"
         app:layout_constraintEnd_toStartOf="@+id/btn_small"
-        app:layout_constraintStart_toEndOf="@+id/cbvdvgfrvfrr"
+        app:layout_constraintStart_toStartOf="@id/guideline_vert_05gt"
         app:layout_constraintTop_toBottomOf="@+id/img_el1" />
 
     <com.google.android.material.button.MaterialButton

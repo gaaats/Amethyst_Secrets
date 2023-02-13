@@ -15,7 +15,7 @@
         android:layout_height="170dp"
         android:layout_marginTop="16dp"
         android:padding="5dp"
-        android:src="@drawable/loggi"
+        android:src="@drawable/stoone"
         app:layout_constraintEnd_toEndOf="@id/gnrforfooj"
         app:layout_constraintStart_toStartOf="@id/rjhrffhrrfhurf"
         app:layout_constraintTop_toBottomOf="@id/vfbgyfgyfrgfryrf" />
